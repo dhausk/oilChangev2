@@ -1,10 +1,14 @@
 # Oil Change V2
 
+Need a landing/about  page. 
+need a login page
+user's landing page
+
 
 
 ## Available Scripts
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
