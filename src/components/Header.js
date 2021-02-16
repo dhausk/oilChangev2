@@ -7,7 +7,7 @@ function Turd() {
         < header className="App-header" >
             <div className="title-div">
                 <h1 className="title">Oil Change</h1>
-                <p className="app-intro">When did I do that again?</p>
+                <p className="app-intro">When did I do that again...</p>
             </div>
             <nav className="header-nav" >
                 <Link to="/">
