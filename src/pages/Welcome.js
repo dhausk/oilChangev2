@@ -5,6 +5,8 @@ function Welcome() {
             <h1>welcome to the machine</h1> 
             <section className="splash" >
             <h1>Oil Change</h1>
+
+            Test Test TEst
             <p>If you have ever forgotten when you changed the oil, simply ran out of room or lost your
             maintenance log book. Dont worry you are not alone, and fortunately there is Oil Change, an
             app that will be the maintenance log book in your pocket. All you need to do. Just pick out
