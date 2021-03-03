@@ -2,7 +2,7 @@ import './HeaderStyle.css';
 import { Link } from 'react-router-dom';
 
 
-function Turd() {
+function NavHeader() {
     return (
         < header className="App-header" >
             <div className="title-div">
@@ -24,4 +24,4 @@ function Turd() {
     );
 }
 
-export default Turd;
+export default NavHeader;
