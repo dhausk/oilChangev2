@@ -10,4 +10,10 @@ function Profile() {
     );
 }
 
+// display user name, take in props? or make api call from component mounting and display here. for 
+// name of user and the list of their vehicles 
+// list vehicles
+// display total money spent per year for all vehicles
+// 
+
 export default Profile;
