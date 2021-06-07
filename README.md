@@ -1,14 +1,20 @@
 # Oil Change V2
 
-Need a landing/about  page. 
-need a login page
+## Tech used
+  - React.js
+  - React Router
+  - HTML, JavaScript, CSS
+
+Landing page is sign in page for user as well as about page
+
+once logged in display user's profile page for their vehicle
+
+
 user's landing page
 
 
 
 ## Available Scripts
-
-
 
 ### `npm start`
 
