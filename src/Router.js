@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Nav from './components/Header';
+import NavHeader from './components/Header';
 import Landing from './pages/Landing';
 import Profile from './pages/Profile';
 import VehicleLog from './pages/VehicleLogs';
@@ -14,13 +14,15 @@ const routes = {
 }
 
 function AppRouter() {
-    const signedIn = true;
+    const signedIn = "yes";
 
     if (signedIn) { // signed in Users see this
         return (
             <Router>
-                <Nav />
-                <Route path='/' component={Profile} />
+                <NavHeader loggedIn={signedIn} />
+                <Route path='/'>
+                    <Profile  />
+                </Route>
                 <Route path='/vehicles' component={VehicleLog}/>
                 <Route path='/vehicle/log'  />
                 {/* vehicles are shown in the users profile page. vehicle logs display once a vehicle is clicked.
@@ -32,7 +34,7 @@ function AppRouter() {
     else {
         return (
             <Router>
-                <Nav />
+                <NavHeader loggedIn={signedIn} />
                 <Route path='/' component={Landing} />
             </Router>
         )
