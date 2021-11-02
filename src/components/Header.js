@@ -31,7 +31,7 @@ function NavHeader(props) {
                     <button className="nav-button" >About</button>
                 </Link>
             </nav>
-            {/* {signInButton} */}
+            {signInButton}
         </header >
     );
 }
