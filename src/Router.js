@@ -14,17 +14,15 @@ const routes = {
 }
 
 function AppRouter() {
-    const signedIn = "yes";
+    const signedIn = true;
 
-    if (signedIn) { // signed in Users see this
+    if (signedIn === true) { // signed in Users see this
         return (
             <Router>
-                <NavHeader loggedIn={signedIn} />
-                <Route path='/'>
-                    <Profile  />
-                </Route>
-                <Route path='/vehicles' component={VehicleLog}/>
-                <Route path='/vehicle/log'  />
+                <NavHeader loggedIn={true} />
+                <Route path={routes.Landing} component={Landing}/>
+                <Route path={routes.Profile} component={VehicleLog}/>
+                <Route path={routes.VehicleLog}  />
                 {/* vehicles are shown in the users profile page. vehicle logs display once a vehicle is clicked.
                 each page is crud capable for vehicles and logs.*/}
 
@@ -34,8 +32,8 @@ function AppRouter() {
     else {
         return (
             <Router>
-                <NavHeader loggedIn={signedIn} />
-                <Route path='/' component={Landing} />
+                <NavHeader loggedIn={false} />
+                <Route path={routes.Landing} component={Landing} />
             </Router>
         )
     }
