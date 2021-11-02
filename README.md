@@ -1,16 +1,13 @@
 # Oil Change V2
 
+Web app for users to keep track of all their vehicle maintenance in one place. This is the web version of this App. There are plans for a native application of this app.
+
 ## Tech used
   - React.js
   - React Router
   - HTML, JavaScript, CSS
 
-Landing page is sign in page for user as well as about page
-
-once logged in display user's profile page for their vehicle
-
-
-user's landing page
+Landing page is sign in page for user as well as about pa
 
 
 
