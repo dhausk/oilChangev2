@@ -4,8 +4,12 @@
     justify-content: space-around;
     align-items: flex-end;    
 }
-.title-nav {}
-.slogan-nav {}
-.header-nav {}
+.title-div {}
+.slogan {}
+.header-nav {
+  margin:3rem;
+}
 .nav-button {}
-.signUpIn {}
+.signUpIn {
+  margin: 2rem;
+}
